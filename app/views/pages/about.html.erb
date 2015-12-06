@@ -1,13 +1,96 @@
-<div class="container">
 
-<h1>About Me</h1>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-  <div> <%= image_tag "meganvickell.jpg" %>
-    <p>
-      Megan Vickell is a Toronto-based Publicist & PR Consultant with day-to-day experience in social media, personal and corporate profile building, and all things public relations.
-      For free PR tips, ideas and general advice for your business or brand, check out my blog.
+<body>
 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam corrupti adipisci quasi earum reiciendis architecto aspernatur, et error fuga distinctio quam tempora eius blanditiis praesentium iure totam ducimus nobis voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quae, mollitia tempore consectetur itaque ut ipsum eum iusto quia iure, ratione beatae cum dignissimos, optio, iste vitae culpa commodi eos.
-    </p>
+
+  <!-- Page Heading/Breadcrumbs -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">About</h1>
+
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li class="active">About</li>
+      </ol>
+    </div>
   </div>
+  <!-- /.row -->
+
+  <!-- Intro Content -->
+  <div class="row">
+
+  <div class="col-sm-4">
+    <img id='about_headshot' alt="Icon" src="/assets/meganvickell2.png" />
+  </div>
+
+
+  <div class="col-md-8 sizing">
+      <h2>About MVPR</h2>
+
+      <p>
+        Megan Vickell is a passionate PR professional with extensive media relations and partnerships experience, superb interpersonal skills and writing ability. Hard working and driven, Megan is committed to improving internal and external relationships, initiating strategies with skill and attention to detail. Megan draws upon her agency and corporate experience with a variety of fashion, retail and technology clients, including Amazon.ca and eBay.ca, to help attain her clients’ company goals. Current clients in the vertical like Daniel Christian Tang, a 3D-printed fine jewellery brand, have appeared in outlets such as ELLE Canada, Flare, Azure, Techvibes and more.
+      </p>
+
+      <p id='para_pad'>
+        Megan’s skill set includes on-camera, broadcast experience, recently acting as television, radio and print media spokesperson for eBay Canada. She has over 30 broadcast appearances to-date, including Canada AM, Breakfast Television, Global and CTV Morning Live.
+      </p>
 </div>
+  </div>
+
+  <!-- /.row -->
+
+<br>
+<br>
+<br>
+
+  <!-- Our Customers -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="page-header">Our Customers</h2>
+    </div>
+
+    <div class="span">
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="imaging"><%= image_tag('dct.png', width: '200', height: '50') %></div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="imaging"><%= image_tag('fixopolis.png', width: '200', height: '50') %></div>
+      </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <div class="span">
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="imaging"><%= image_tag('two_chicks.png', width: '200', height: '50') %></div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="imaging"><%= image_tag('hardboot_inc.png', width: '200', height: '50') %></div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <hr>
+
+</body>
+
+
+  <script>
+
+    var ele = $(".sizing").height() - 20;
+    $("#about_headshot").css({'height': ele});
+
+  </script>
+
+
+
+
+

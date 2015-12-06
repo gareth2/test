@@ -1,11 +1,9 @@
 class PagesController < ApplicationController
   def home
+    render :layout => nil
   end
 
   def about
-  end
-
-  def services
   end
 
   def contact
@@ -14,4 +12,13 @@ class PagesController < ApplicationController
   def faq
 
   end
+
+  def client_testimonials
+
+  end
+
+  def result
+
+  end
+
 end

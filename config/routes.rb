@@ -3,11 +3,13 @@ Rails.application.routes.draw do
 
   get 'pages/about'
 
-  get 'pages/services'
-
   get 'pages/contact'
 
   get 'pages/faq'
+
+  get 'pages/client_testimonials'
+
+  get 'pages/result'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
