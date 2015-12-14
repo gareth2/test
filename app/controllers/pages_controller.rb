@@ -21,4 +21,8 @@ class PagesController < ApplicationController
 
   end
 
+  def service
+
+  end
+
 end

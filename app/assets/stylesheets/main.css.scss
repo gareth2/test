@@ -174,5 +174,30 @@ footer {
 
 .navbar-brand,
 .navbar-nav > li > a {
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
 }
+
+
+.word_cloud{
+    background-image: image_url("word_cloud_4.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 390px;
+    width: 779px;
+    padding-left: 0px;
+}
+
+
+.navbar.navbar-inverse li a {
+    color: black;
+}
+
+.navbar.navbar-inverse{
+    border-color: transparent;
+}
+
+
+
+
+
