@@ -12,6 +12,11 @@ body {
     padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+li.list {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .navbar{
     margin-bottom: 0px;
     border-radius: 0px;
@@ -181,7 +186,7 @@ footer {
     background-image: image_url("word_cloud_4.jpg");
     background-repeat: no-repeat;
     display: block;
-    margin-left: auto;
+    margin-left: 100px;
     margin-right: auto;
     height: 390px;
     width: 779px;
