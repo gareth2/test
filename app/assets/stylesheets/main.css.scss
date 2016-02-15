@@ -10,8 +10,13 @@ body {
 
 body {
     padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-size: 16px;
 }
 
+
+strong{
+    font-size: 18px;
+}
 li.list {
     font-weight: bold;
     font-size: 18px;
@@ -212,4 +217,8 @@ footer {
 
 .email {
     font-size: 24px;
+}
+
+.quote{
+    font-style: italic;
 }
