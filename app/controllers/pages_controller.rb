@@ -7,22 +7,26 @@ class PagesController < ApplicationController
   end
 
   def contact
+
+    # if
+
+    #   UserMailer.welcome_email(@user).deliver_later
+    # end
+
   end
 
   def faq
-
   end
 
   def client_testimonials
-
   end
 
   def result
-
   end
 
   def service
-
   end
+
+
 
 end
